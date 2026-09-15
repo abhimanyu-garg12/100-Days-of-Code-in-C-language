@@ -16,6 +16,11 @@ if (a<=b)
 printf("Profit = %f %\n",((b-a)/a)*100);
 }
 
+else if (a==b)
+{
+printf("No Profit No Loss\n");
+}
+
 else
 {
 printf("Loss = %f %\n",((a-b)/a)*100);
